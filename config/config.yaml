@@ -115,19 +115,20 @@ rss:
   feeds:
     - id: "blockbeats"
       name: "律动 BlockBeats"
-      url: "https://theblockbeats.info/rss"
+      url: "https://api.theblockbeats.news/v1/open-api/home-xml"
       
     - id: "panews"
       name: "PANews"
-      url: "https://www.panewslab.com/zh/rss"
+      url: "https://www.panewslab.com/rss.xml?lang=zh&type=NORMAL%2CNEWS%2CVIDEO&featured=true&in-depth=true"
       
     - id: "odaily"
       name: "Odaily 星球日报"
-      url: "https://www.odaily.news/feed"
-
+      url: "https://rss.odaily.news/rss/newsflash"
+      url: "https://rss.odaily.news/rss/post"
+    
     - id: "techflow"
       name: "深潮 TechFlow"
-      url: "https://www.techflowpost.com/rss"
+      url: "https://www.techflowpost.com/api/client/common/rss.xml"
       
     # 如果你也看英文一手资讯，可以把 Cointelegraph 加上
     # - id: "cointelegraph"
